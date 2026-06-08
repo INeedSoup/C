@@ -17,7 +17,6 @@ Use this roadmap to extend the tutorial series.
 ## Practical Programming
 
 - Safer input handling and validation patterns
-- Command-line arguments with `argc` and `argv`
 - Error handling with return codes and `errno`
 - Logging basics
 - Building reusable modules
@@ -58,4 +57,3 @@ Use this roadmap to extend the tutorial series.
 - Simple HTTP client using a networking library
 - SQLite-backed notes app
 - MongoDB-backed CRUD demo after learning external libraries
-

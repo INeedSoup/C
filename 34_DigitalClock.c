@@ -1,11 +1,23 @@
 #include <stdio.h>
 #include <time.h> // time related functions
 #include <stdbool.h>
-#include <unistd.h> // sleep function for unix 
-#include <windows.h>
+#ifdef _WIN32
+    #include <windows.h>
+#else
+    #include <unistd.h>
+#endif
 
 
 // time (tm) struct contains seconds, minutes, hours, days, months, year, weekday, year day
+
+void sleepOneSecond()
+{
+#ifdef _WIN32
+    Sleep(1000);
+#else
+    sleep(1);
+#endif
+}
 
 int main()
 {
@@ -27,7 +39,7 @@ int main()
  
         // printf("%ld\n", rawtime); total seconds from that epoch time
 
-        Sleep(1000); // for windows 1000ms
+        sleepOneSecond();
     }
 
 
