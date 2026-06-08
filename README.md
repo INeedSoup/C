@@ -12,34 +12,34 @@ This repository is a beginner-friendly set of standalone C programs. Each file f
 Compile one lesson with GCC:
 
 ```sh
-gcc 1_Introduction.c -o 1_Introduction.exe
+gcc 01_Introduction.c -o 01_Introduction.exe
 ```
 
 Run it on Windows:
 
 ```sh
-1_Introduction.exe
+01_Introduction.exe
 ```
 
 You can also use extra warning flags when you want the compiler to point out possible mistakes:
 
 ```sh
-gcc -std=c11 -Wall -Wextra -pedantic 1_Introduction.c -o 1_Introduction.exe
+gcc -std=c11 -Wall -Wextra -pedantic 01_Introduction.c -o 01_Introduction.exe
 ```
 
 ## Lesson Index
 
 | # | File | Topic |
 |---|---|---|
-| 1 | `1_Introduction.c` | Basic structure, variables, data types, `printf`, arithmetic |
-| 2 | `2_Input.c` | User input with `scanf` and `fgets` |
-| 3 | `3_ShoppingCart.c` | Small input-driven shopping cart |
-| 4 | `4_Madlibs.c` | String input practice |
-| 5 | `5_MathFunctions.c` | Common math functions |
-| 6 | `6_MathCalculators.c` | Calculator-style math programs |
-| 7 | `7_ConditionalStatements.c` | `if`, `else if`, `switch`, nested conditions |
-| 8 | `8_ConverterPrograms.c` | Unit conversion practice |
-| 9 | `9_Calculator.c` | Menu-style calculator |
+| 1 | `01_Introduction.c` | Basic structure, variables, data types, `printf`, arithmetic |
+| 2 | `02_Input.c` | User input with `scanf` and `fgets` |
+| 3 | `03_ShoppingCart.c` | Small input-driven shopping cart |
+| 4 | `04_Madlibs.c` | String input practice |
+| 5 | `05_MathFunctions.c` | Common math functions |
+| 6 | `06_MathCalculators.c` | Calculator-style math programs |
+| 7 | `07_ConditionalStatements.c` | `if`, `else if`, `switch`, nested conditions |
+| 8 | `08_ConverterPrograms.c` | Unit conversion practice |
+| 9 | `09_Calculator.c` | Menu-style calculator |
 | 10 | `10_LogicalOperators.c` | `&&`, `||`, `!`, and boolean logic |
 | 11 | `11_Functions.c` | Function definitions and calls |
 | 12 | `12_VariableScope.c` | Local/global scope |
